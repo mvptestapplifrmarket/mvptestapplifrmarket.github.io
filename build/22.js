@@ -1,1 +1,282 @@
-webpackJsonp([22],{1591:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a=u(1),o=(u(68),function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.initializeItems()}return l.prototype.initializeItems=function(){this.items=[]},l.prototype.getItems=function(l){this.initializeItems();var n=l.target.value;n&&""!=n.trim()&&(this.items=this.items.filter(function(l){return l.toLowerCase().indexOf(n.toLowerCase())>-1}))},l.prototype.soon=function(){this.toastCtrl.create({message:"Coming soon",duration:2e3,position:"bottom"}).present()},l}()),t=function(){return function(){}}(),e=u(45),i=u(59),c=u(392),r=u(662),_=u(663),s=u(664),b=u(665),d=u(666),m=u(667),h=u(668),p=u(669),f=u(393),g=u(4),k=u(15),M=u(1599),v=u(142),y=u(23),C=u(73),w=u(195),B=u(67),I=u(397),L=u(69),P=u(394),x=u(196),F=u(120),T=u(1596),O=u(391),A=u(670),z=u(103),N=u(13),S=u(26),j=u(74),E=u(1629),D=u(407),R=u(143),q=u(20),K=u(396),Y=u(60),Z=u(51),H=u(122),J=u(198),G=u(145),Q=u(32),U=u(265),V=a._12({encapsulation:2,styles:[],data:{}});function W(l){return a._37(0,[(l()(),a._14(0,null,null,20,"ion-header",[],null,null,null,null,null)),a._13(16384,null,0,f.a,[g.a,a.o,a.M,[2,k.a]],null,null),(l()(),a._35(null,["\n\n  "])),(l()(),a._14(0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),a._13(49152,null,0,v.a,[y.a,[2,k.a],[2,C.a],g.a,a.o,a.M],{color:[0,"color"]},null),(l()(),a._35(3,["\n    "])),(l()(),a._14(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var o=!0;"click"===n&&(o=!1!==a._27(l,8).toggle()&&o);return o},w.b,w.a)),a._13(1097728,[[1,4]],0,B.a,[[8,""],g.a,a.o,a.M],null,null),a._13(1064960,null,0,I.a,[L.a,[2,k.a],[2,B.a],[2,v.a]],{menuToggle:[0,"menuToggle"]},null),a._13(16384,null,1,P.a,[g.a,a.o,a.M,[2,x.a],[2,v.a]],null,null),a._33(603979776,1,{_buttons:1}),(l()(),a._35(0,["\n      "])),(l()(),a._14(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(147456,null,0,F.a,[g.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._35(0,["\n    "])),(l()(),a._35(3,["\n    "])),(l()(),a._14(0,null,3,2,"ion-title",[],null,null,null,T.b,T.a)),a._13(49152,null,0,O.a,[g.a,a.o,a.M,[2,x.a],[2,v.a]],null,null),(l()(),a._35(0,["Transfer"])),(l()(),a._35(3,["\n  "])),(l()(),a._35(null,["\n\n"])),(l()(),a._35(null,["\n\n\n"])),(l()(),a._14(0,null,null,69,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[[null,"click"]],function(l,n,u){var a=!0;"click"===n&&(a=!1!==l.component.soon()&&a);return a},A.b,A.a)),a._13(4374528,null,0,z.a,[g.a,N.a,S.a,a.o,a.M,y.a,j.a,a.E,[2,k.a],[2,C.a]],null,null),(l()(),a._35(1,["\n  "])),(l()(),a._14(0,null,1,1,"ion-searchbar",[],[[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ionInput"]],function(l,n,u){var a=!0;"ionInput"===n&&(a=!1!==l.component.getItems(u)&&a);return a},E.b,E.a)),a._13(1294336,null,0,D.a,[g.a,N.a,a.o,a.M,[2,i.i]],null,{ionInput:"ionInput"}),(l()(),a._35(1,["\n  "])),(l()(),a._14(0,null,1,62,"ion-list",[],null,null,null,null,null)),a._13(16384,null,0,R.a,[g.a,a.o,a.M,N.a,q.j,S.a],null,null),(l()(),a._35(null,["\n    "])),(l()(),a._14(0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,K.b,K.a)),a._13(1097728,null,3,Y.a,[Z.a,g.a,a.o,a.M,[2,H.a]],null,null),a._33(335544320,2,{contentLabel:0}),a._33(603979776,3,{_buttons:1}),a._33(603979776,4,{_icons:1}),a._13(16384,null,0,J.a,[],null,null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,0,1,"ion-icon",[["item-start",""],["name","contacts"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(147456,[[4,4]],0,F.a,[g.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,1,2,"ion-label",[],null,null,null,null,null)),a._13(16384,[[2,4]],0,G.a,[g.a,a.o,a.M,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),a._35(null,["To My Friends"])),(l()(),a._35(2,["\n    "])),(l()(),a._35(null,["\n    "])),(l()(),a._14(0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,K.b,K.a)),a._13(1097728,null,3,Y.a,[Z.a,g.a,a.o,a.M,[2,H.a]],null,null),a._33(335544320,5,{contentLabel:0}),a._33(603979776,6,{_buttons:1}),a._33(603979776,7,{_icons:1}),a._13(16384,null,0,J.a,[],null,null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,0,1,"ion-icon",[["item-start",""],["name","people"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(147456,[[7,4]],0,F.a,[g.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,1,2,"ion-label",[],null,null,null,null,null)),a._13(16384,[[5,4]],0,G.a,[g.a,a.o,a.M,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),a._35(null,["To NeoPlace Account"])),(l()(),a._35(2,["\n    "])),(l()(),a._35(null,["\n    "])),(l()(),a._14(0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,K.b,K.a)),a._13(1097728,null,3,Y.a,[Z.a,g.a,a.o,a.M,[2,H.a]],null,null),a._33(335544320,8,{contentLabel:0}),a._33(603979776,9,{_buttons:1}),a._33(603979776,10,{_icons:1}),a._13(16384,null,0,J.a,[],null,null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,0,1,"ion-icon",[["item-start",""],["name","card"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(147456,[[10,4]],0,F.a,[g.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,1,2,"ion-label",[],null,null,null,null,null)),a._13(16384,[[8,4]],0,G.a,[g.a,a.o,a.M,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),a._35(null,["To Bank Card"])),(l()(),a._35(2,["\n    "])),(l()(),a._35(null,["\n    "])),(l()(),a._14(0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,K.b,K.a)),a._13(1097728,null,3,Y.a,[Z.a,g.a,a.o,a.M,[2,H.a]],null,null),a._33(335544320,11,{contentLabel:0}),a._33(603979776,12,{_buttons:1}),a._33(603979776,13,{_icons:1}),a._13(16384,null,0,J.a,[],null,null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,0,1,"ion-icon",[["item-start",""],["name","swap"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(147456,[[13,4]],0,F.a,[g.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._35(2,["\n      "])),(l()(),a._14(0,null,1,2,"ion-label",[],null,null,null,null,null)),a._13(16384,[[11,4]],0,G.a,[g.a,a.o,a.M,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),a._35(null,["To Bank account"])),(l()(),a._35(2,["\n    "])),(l()(),a._35(null,["\n  "])),(l()(),a._35(1,["\n"])),(l()(),a._35(null,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu"),l(n,26,0);l(n,39,0,"contacts");l(n,54,0,"people");l(n,69,0,"card");l(n,84,0,"swap")},function(l,n){l(n,3,0,a._27(n,4)._hidden,a._27(n,4)._sbPadding),l(n,6,0,a._27(n,8).isHidden),l(n,12,0,a._27(n,13)._hidden),l(n,22,0,a._27(n,23).statusbarPadding,a._27(n,23)._hasRefresher),l(n,25,0,a._27(n,26)._animated,a._27(n,26)._value,a._27(n,26)._isActive,a._27(n,26)._showCancelButton,a._27(n,26)._shouldAlignLeft,a._27(n,26)._isFocus),l(n,38,0,a._27(n,39)._hidden),l(n,53,0,a._27(n,54)._hidden),l(n,68,0,a._27(n,69)._hidden),l(n,83,0,a._27(n,84)._hidden)})}var X=a._11("page-transfer",o,function(l){return a._37(0,[(l()(),a._14(0,null,null,1,"page-transfer",[],null,null,null,W,V)),a._13(49152,null,0,o,[C.a,Q.a,U.a],null,null)],null,null)},{},{},[]),$=u(121);u.d(n,"SearchbarPageModuleNgFactory",function(){return ul});var ll,nl=this&&this.__extends||(ll=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])},function(l,n){function u(){this.constructor=l}ll(l,n),l.prototype=null===n?Object.create(n):(u.prototype=n.prototype,new u)}),ul=new a.B(function(l){function n(n){return l.call(this,n,[r.a,_.a,s.a,b.a,d.a,m.a,h.a,p.a,X],[])||this}return nl(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new e.l(this.parent.get(a.z))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new i.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new i.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new e.c,this._ɵba_1=new i.o,this._FormsModule_2=new i.g,this._ReactiveFormsModule_3=new i.m,this._IonicModule_4=new c.a,this._IonicPageModule_5=new c.b,this._SearchbarPageModule_6=new t,this._LAZY_LOADED_TOKEN_10=o,this._SearchbarPageModule_6},n.prototype.getInternal=function(l,n){return l===e.c?this._CommonModule_0:l===i.o?this._ɵba_1:l===i.g?this._FormsModule_2:l===i.m?this._ReactiveFormsModule_3:l===c.a?this._IonicModule_4:l===c.b?this._IonicPageModule_5:l===t?this._SearchbarPageModule_6:l===e.m?this._NgLocalization_7:l===i.q?this._ɵi_8:l===i.d?this._FormBuilder_9:l===$.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(a._9),t)},1596:function(l,n,u){"use strict";u.d(n,"a",function(){return r}),n.b=_;var a=u(1),o=u(45),t=u(391),e=u(4),i=u(196),c=u(142),r=a._12({encapsulation:2,styles:[],data:{}});function _(l){return a._37(2,[(l()(),a._14(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),a._13(278528,null,0,o.i,[a.x,a.y,a.o,a.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._26(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}a._11("ion-title",t.a,function(l){return a._37(0,[(l()(),a._14(0,null,null,1,"ion-title",[],null,null,null,_,r)),a._13(49152,null,0,t.a,[e.a,a.o,a.M,[2,i.a],[2,c.a]],null,null)],null,null)},{color:"color",mode:"mode"},{},["*"])},1599:function(l,n,u){"use strict";u.d(n,"a",function(){return d}),n.b=m;var a=u(1),o=u(45),t=u(142),e=u(195),i=u(67),c=u(4),r=u(120),_=u(23),s=u(15),b=u(73),d=a._12({encapsulation:2,styles:[],data:{}});function m(l){return a._37(0,[(l()(),a._14(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),a._13(278528,null,0,o.i,[a.x,a.y,a.o,a.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._14(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;"click"===n&&(a=!1!==l.component.backButtonClick(u)&&a);return a},e.b,e.a)),a._13(278528,null,0,o.i,[a.x,a.y,a.o,a.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._13(1097728,null,0,i.a,[[8,"bar-button"],c.a,a.o,a.M],null,null),(l()(),a._14(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(278528,null,0,o.i,[a.x,a.y,a.o,a.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._13(147456,null,0,r.a,[c.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._14(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),a._13(278528,null,0,o.i,[a.x,a.y,a.o,a.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._35(null,["",""])),a._26(null,0),a._26(null,1),a._26(null,2),(l()(),a._14(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),a._13(278528,null,0,o.i,[a.x,a.y,a.o,a.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._26(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,a._27(n,7)._hidden),l(n,10,0,u._backText)})}a._11("ion-navbar",t.a,function(l){return a._37(0,[(l()(),a._14(0,null,null,1,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,m,d)),a._13(49152,null,0,t.a,[_.a,[2,s.a],[2,b.a],c.a,a.o,a.M],null,null)],null,function(l,n){l(n,0,0,a._27(n,1)._hidden,a._27(n,1)._sbPadding)})},{color:"color",mode:"mode",hideBackButton:"hideBackButton"},{},["[menuToggle],ion-buttons[left]","ion-buttons[start]","ion-buttons[end],ion-buttons[right]","*"])},1629:function(l,n,u){"use strict";u.d(n,"a",function(){return s}),n.b=b;var a=u(1),o=u(407),t=u(195),e=u(67),i=u(4),c=u(120),r=u(13),_=u(59),s=a._12({encapsulation:2,styles:[],data:{}});function b(l){return a._37(0,[a._33(402653184,1,{_searchbarInput:0}),a._33(402653184,2,{_searchbarIcon:0}),a._33(402653184,3,{_cancelButton:0}),(l()(),a._14(0,null,null,8,"div",[["class","searchbar-input-container"]],null,null,null,null,null)),(l()(),a._14(0,null,null,3,"button",[["class","searchbar-md-cancel"],["clear",""],["color","dark"],["ion-button",""],["mode","md"],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,o=l.component;"click"===n&&(a=!1!==o.cancelSearchbar(u)&&a);"mousedown"===n&&(a=!1!==o.cancelSearchbar(u)&&a);return a},t.b,t.a)),a._13(1097728,null,0,e.a,[[8,""],i.a,a.o,a.M],{color:[0,"color"],mode:[1,"mode"],clear:[2,"clear"]},null),(l()(),a._14(0,null,0,1,"ion-icon",[["name","md-arrow-back"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._13(147456,null,0,c.a,[i.a,a.o,a.M],{name:[0,"name"]},null),(l()(),a._14(0,[[2,0],["searchbarIcon",1]],null,0,"div",[["class","searchbar-search-icon"]],null,null,null,null,null)),(l()(),a._14(0,[[1,0],["searchbarInput",1]],null,0,"input",[["class","searchbar-input"]],[[1,"placeholder",0],[1,"type",0],[1,"autocomplete",0],[1,"autocorrect",0],[1,"spellcheck",0]],[[null,"input"],[null,"blur"],[null,"focus"]],function(l,n,u){var a=!0,o=l.component;"input"===n&&(a=!1!==o.inputChanged(u)&&a);"blur"===n&&(a=!1!==o.inputBlurred()&&a);"focus"===n&&(a=!1!==o.inputFocused()&&a);return a},null,null)),(l()(),a._14(0,null,null,1,"button",[["class","searchbar-clear-icon"],["clear",""],["ion-button",""],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,o=l.component;"click"===n&&(a=!1!==o.clearInput(u)&&a);"mousedown"===n&&(a=!1!==o.clearInput(u)&&a);return a},t.b,t.a)),a._13(1097728,null,0,e.a,[[8,""],i.a,a.o,a.M],{mode:[0,"mode"],clear:[1,"clear"]},null),(l()(),a._14(0,[[3,0]],null,2,"button",[["class","searchbar-ios-cancel"],["clear",""],["ion-button",""],["mode","ios"],["type","button"]],[[8,"tabIndex",0]],[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,o=l.component;"click"===n&&(a=!1!==o.cancelSearchbar(u)&&a);"mousedown"===n&&(a=!1!==o.cancelSearchbar(u)&&a);return a},t.b,t.a)),a._13(1097728,[["cancelButton",4]],0,e.a,[[8,""],i.a,a.o,a.M],{mode:[0,"mode"],clear:[1,"clear"]},null),(l()(),a._35(0,["",""]))],function(l,n){var u=n.component;l(n,5,0,"dark","md","");l(n,7,0,"md-arrow-back");l(n,11,0,u._mode,"");l(n,13,0,"ios","")},function(l,n){var u=n.component;l(n,6,0,a._27(n,7)._hidden),l(n,9,0,u.placeholder,u.type,u._autocomplete,u._autocorrect,u._spellcheck),l(n,12,0,u._isActive?1:-1),l(n,14,0,u.cancelButtonText)})}a._11("ion-searchbar",o.a,function(l){return a._37(0,[(l()(),a._14(0,null,null,1,"ion-searchbar",[],[[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],null,null,b,s)),a._13(1294336,null,0,o.a,[i.a,r.a,a.o,a.M,[2,_.i]],null,null)],function(l,n){l(n,1,0)},function(l,n){l(n,0,0,a._27(n,1)._animated,a._27(n,1)._value,a._27(n,1)._isActive,a._27(n,1)._showCancelButton,a._27(n,1)._shouldAlignLeft,a._27(n,1)._isFocus)})},{color:"color",mode:"mode",disabled:"disabled",cancelButtonText:"cancelButtonText",showCancelButton:"showCancelButton",debounce:"debounce",placeholder:"placeholder",autocomplete:"autocomplete",autocorrect:"autocorrect",spellcheck:"spellcheck",type:"type",animated:"animated"},{ionFocus:"ionFocus",ionChange:"ionChange",ionBlur:"ionBlur",ionInput:"ionInput",ionCancel:"ionCancel",ionClear:"ionClear"},[])}});
+webpackJsonp([22],{
+
+/***/ 1658:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfileSettingsPageModule", function() { return ProfileSettingsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__profile_settings__ = __webpack_require__(1724);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(65);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ProfileSettingsPageModule = (function () {
+    function ProfileSettingsPageModule() {
+    }
+    return ProfileSettingsPageModule;
+}());
+ProfileSettingsPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_0__profile_settings__["a" /* ProfileSettingsPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_0__profile_settings__["a" /* ProfileSettingsPage */]),
+        ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_0__profile_settings__["a" /* ProfileSettingsPage */]
+        ]
+    })
+], ProfileSettingsPageModule);
+
+//# sourceMappingURL=profile-settings.module.js.map
+
+/***/ }),
+
+/***/ 1724:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfileSettingsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_user_service__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_global_setting__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__ = __webpack_require__(680);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var ProfileSettingsPage = (function () {
+    function ProfileSettingsPage(userService, toastCtrl, camera, navCtrl, params, global, menuCtrl, geolocation, alertCtrl) {
+        this.userService = userService;
+        this.toastCtrl = toastCtrl;
+        this.camera = camera;
+        this.navCtrl = navCtrl;
+        this.params = params;
+        this.global = global;
+        this.menuCtrl = menuCtrl;
+        this.geolocation = geolocation;
+        this.alertCtrl = alertCtrl;
+        this.placeholderPicture = 'assets/img/avatar/user-avatar.png';
+        this.profil = {};
+        this.languages = ['English'];
+        this.paymentMethods = ['ETH', 'BTC', 'GAS'];
+        this.currencies = ['USD', 'EUR'];
+        this.displayUpdate = false;
+        this.isNew = false;
+        this.isPass = false;
+        this.alive = true;
+    }
+    ProfileSettingsPage.prototype.ionViewWillEnter = function () {
+        if (this.params.get("isNew")) {
+            this.isNew = true;
+            this.profil.language = this.languages[0];
+        }
+        if (this.userService._profil && !this.isNew) {
+            this.profil = this.userService._profil;
+        }
+    };
+    ProfileSettingsPage.prototype.ionViewWillLeave = function () {
+        this.alive = false;
+    };
+    ProfileSettingsPage.prototype.updateProfileImage = function () {
+        var _this = this;
+        this.camera.getPicture({
+            quality: 50,
+            allowEdit: true,
+            cameraDirection: this.camera.Direction.FRONT,
+            destinationType: this.camera.DestinationType.DATA_URL,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE
+        }).then(function (imageData) {
+            _this.profil.imageUrl = "data:image/jpeg;base64," + imageData;
+            _this.update();
+        }, function (err) {
+            _this.toastCtrl.create('Error: ' + err);
+        });
+    };
+    ProfileSettingsPage.prototype.updateData = function () {
+        var _this = this;
+        if (!this.checkForm()) {
+            return false;
+        }
+        if (!this.isNew) {
+            this.profil.uid = this.userService._userFirebase.uid;
+            this.profil.username = this.userService._user.username;
+            this.isPass = true;
+            this.userService.saveProfil(this.profil);
+            this.userService._profil = this.profil;
+            this.toastCtrl.create({
+                message: 'Profil updated',
+                duration: 2000,
+                position: 'bottom'
+            }).present();
+            if (!this.isNew) {
+                this.navCtrl.pop();
+            }
+            return true;
+        }
+        else {
+            this.userService.getUidFromPseudo(this.profil.pseudo)
+                .takeWhile(function () { return _this.alive; })
+                .subscribe(function (uid) {
+                if (!uid.$value || !_this.isNew) {
+                    _this.profil.uid = _this.userService._userFirebase.uid;
+                    _this.profil.username = _this.userService._user.username;
+                    _this.isPass = true;
+                    _this.userService.saveProfil(_this.profil);
+                    _this.userService._profil = _this.profil;
+                    _this.global.set('profil', _this.profil);
+                    _this.toastCtrl.create({
+                        message: 'Profil updated',
+                        duration: 2000,
+                        position: 'bottom'
+                    }).present();
+                    if (!_this.isNew) {
+                        _this.navCtrl.pop();
+                    }
+                    _this.menuCtrl.enable(true, 'menu-material');
+                    _this.navCtrl.setRoot('TabsPage');
+                    return true;
+                }
+                else {
+                    if (!_this.isPass) {
+                        var toast = _this.toastCtrl.create({
+                            message: 'Pseudo already used, choose a new one',
+                            duration: 2000,
+                            position: 'bottom'
+                        });
+                        toast.present(toast);
+                        return false;
+                    }
+                }
+            });
+        }
+    };
+    ProfileSettingsPage.prototype.checkForm = function () {
+        if (!this.profil.pseudo || !this.profil.lastName || !this.profil.firstName || !this.profil.language || !this.profil.paymentMethod || !this.profil.currency) {
+            this.toastCtrl.create({
+                message: 'Please fill all fields',
+                duration: 2000,
+                position: 'bottom'
+            }).present();
+            return false;
+        }
+        return true;
+    };
+    ProfileSettingsPage.prototype.update = function () {
+        if (!this.isNew) {
+            this.displayUpdate = true;
+        }
+    };
+    ProfileSettingsPage.prototype.next = function () {
+        this.updateData();
+    };
+    ProfileSettingsPage.prototype.checkPseudo = function () {
+        var _this = this;
+        return this.userService.getUidFromPseudo(this.profil.pseudo)
+            .takeWhile(function () { return _this.alive; })
+            .subscribe(function (uid) {
+            if (uid.$value) {
+                if (!_this.isPass) {
+                    _this.toastCtrl.create({
+                        message: 'Pseudo already used, choose a new one',
+                        duration: 2000,
+                        position: 'bottom'
+                    }).present();
+                }
+            }
+        });
+    };
+    ProfileSettingsPage.prototype.showFiatEchange = function () {
+        var _this = this;
+        if (this.profil.position) {
+            var confirm_1 = this.alertCtrl.create({
+                title: 'Fiat exchange',
+                message: 'Your position will be displayed on the map.',
+                cssClass: 'confirm-alert',
+                buttons: [
+                    {
+                        text: 'Cancel',
+                        handler: function () {
+                            //console.log('Disagree clicked');
+                        }
+                    },
+                    {
+                        text: 'Confirm',
+                        handler: function () {
+                            _this.geolocation.getCurrentPosition({ maximumAge: 30000, timeout: 3000, enableHighAccuracy: true })
+                                .then(function (position) {
+                                _this.profil.position = true;
+                                _this.userService.saveProfilPosition(position.coords.latitude + Math.random() * (0.0019 + 0.0019) - 0.0019, position.coords.longitude + Math.random() * (0.0019 + 0.0019) - 0.0019);
+                                if (!_this.isNew) {
+                                    _this.userService.saveProfil(_this.profil);
+                                }
+                            }).catch(function (error) {
+                                //console.log('Error : ', error);
+                                var alert = _this.alertCtrl.create({
+                                    title: 'Error',
+                                    subTitle: 'Error while getting your position, try again',
+                                    buttons: ['Close']
+                                });
+                                alert.present();
+                            });
+                        }
+                    }
+                ]
+            });
+            confirm_1.present();
+        }
+        else {
+            this.profil.position = false;
+            this.userService.deleteProfilPosition();
+            if (!this.isNew) {
+                this.userService.saveProfil(this.profil);
+            }
+        }
+    };
+    return ProfileSettingsPage;
+}());
+ProfileSettingsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["f" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
+        selector: 'page-profile-settings',template:/*ion-inline-start:"D:\ivpay2\src\pages\profile\profile-settings.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title *ngIf="!isNew">User Settings</ion-title>\n    <ion-title *ngIf="isNew">Complete your profil</ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <ion-list>\n    <ion-list-header>\n      <ion-avatar item-start (click)="updateProfileImage()">\n        <img [src]="profil.imageUrl ? profil.imageUrl : placeholderPicture">\n      </ion-avatar>\n      <p class="username" *ngIf="profil.lastName && profil.firstName">{{profil.lastName + \' \' + profil.firstName}}</p>\n    </ion-list-header>\n  </ion-list>\n  <ion-list no-border>\n    <ion-list-header>\n      General\n    </ion-list-header>\n    <ion-item>\n      <ion-icon name=\'settings\' item-start></ion-icon>\n      <ion-label>Pseudo</ion-label>\n      <ion-input [(ngModel)]="profil.pseudo" (input)="checkPseudo()" [disabled]="!isNew"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name=\'settings\' item-start></ion-icon>\n      <ion-label>Lastname</ion-label>\n      <ion-input [(ngModel)]="profil.lastName" (ngModelChange)="update()"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name=\'settings\' item-start></ion-icon>\n      <ion-label>Firstname</ion-label>\n      <ion-input [(ngModel)]="profil.firstName" (ngModelChange)="update()"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name=\'settings\' item-start></ion-icon>\n      <ion-label>App Language</ion-label>\n      <ion-select [(ngModel)]="profil.language" (ngModelChange)="update()">\n        <ion-option *ngFor="let language of languages" [value]="language">{{language}}</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-list>\n  <ion-list>\n    <ion-list-header>\n      Currency\n    </ion-list-header>\n    <ion-item>\n      <ion-icon name=\'card\' item-start></ion-icon>\n      <ion-label>Payment Method</ion-label>\n      <ion-select [(ngModel)]="profil.paymentMethod" (ngModelChange)="update()">\n        <ion-option *ngFor="let method of paymentMethods" [value]="method">{{method}} {{method == \'GAS\' ? \'(NEO)\' : \'\'}}</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-icon name=\'logo-usd\' item-start></ion-icon>\n      <ion-label>Currency</ion-label>\n      <ion-select [(ngModel)]="profil.currency" (ngModelChange)="update()">\n        <ion-option *ngFor="let currency of currencies" [value]="currency">{{currency}}</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-toggle [(ngModel)]="profil.position" (ionChange)="showFiatEchange()"></ion-toggle>\n      <ion-label class="label"> Available for fiat echange </ion-label>\n      <ion-icon name=\'notifications\' item-start></ion-icon>\n    </ion-item>\n    <ion-item>\n      <ion-icon name=\'settings\' item-start></ion-icon>\n      <ion-label>Telegram username (optional)</ion-label>\n      <ion-input [(ngModel)]="profil.telegram" (ngModelChange)="update()"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name=\'settings\' item-start></ion-icon>\n      <ion-label>Address (optional)</ion-label>\n      <ion-input [(ngModel)]="profil.address" (ngModelChange)="update()"></ion-input>\n    </ion-item>\n  </ion-list>\n</ion-content>\n\n<ion-footer *ngIf="!isNew">\n  <button ion-button full color="secondary" *ngIf="displayUpdate" (click)="updateData()">Update</button>\n</ion-footer>\n\n<ion-footer *ngIf="isNew">\n  <button ion-button full color="secondary" (click)="next()">Finish</button>\n</ion-footer>\n'/*ion-inline-end:"D:\ivpay2\src\pages\profile\profile-settings.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__providers_user_service__["a" /* UserService */],
+        __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["q" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */],
+        __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["m" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_4__app_global_setting__["a" /* AppState */],
+        __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["i" /* MenuController */],
+        __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__["a" /* Geolocation */],
+        __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* AlertController */]])
+], ProfileSettingsPage);
+
+//# sourceMappingURL=profile-settings.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=22.js.map

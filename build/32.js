@@ -1,1 +1,304 @@
-webpackJsonp([32],{1569:function(l,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var u=t(1),o=(t(68),t(146)),a=function(){function l(l){this.navCtrl=l,this.rootPage="HomeListPage",this.items=o.b}return l.prototype.itemTapped=function(l,n){this.navCtrl.push(n.component)},l}(),e=function(){return function(){}}(),i=t(45),_=t(59),s=t(392),r=t(662),c=t(663),b=t(664),d=t(665),m=t(666),g=t(667),h=t(668),p=t(669),f=t(396),k=t(60),M=t(51),y=t(4),v=t(122),C=t(198),P=t(393),L=t(15),w=t(1599),x=t(142),O=t(23),B=t(73),F=t(195),T=t(67),j=t(397),I=t(69),N=t(394),H=t(196),z=t(120),A=t(1596),E=t(391),D=t(670),R=t(103),Y=t(13),q=t(26),K=t(74),Z=t(143),$=t(20),J=u._12({encapsulation:2,styles:[],data:{}});function U(l){return u._37(0,[(l()(),u._14(0,null,null,6,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,t){var u=!0;"click"===n&&(u=!1!==l.component.itemTapped(t,l.context.$implicit)&&u);return u},f.b,f.a)),u._13(1097728,null,3,k.a,[M.a,y.a,u.o,u.M,[2,v.a]],null,null),u._33(335544320,2,{contentLabel:0}),u._33(603979776,3,{_buttons:1}),u._33(603979776,4,{_icons:1}),u._13(16384,null,0,C.a,[],null,null),(l()(),u._35(2,["\n      ","\n    "]))],null,function(l,n){l(n,6,0,n.context.$implicit.title)})}function G(l){return u._37(0,[(l()(),u._14(0,null,null,20,"ion-header",[],null,null,null,null,null)),u._13(16384,null,0,P.a,[y.a,u.o,u.M,[2,L.a]],null,null),(l()(),u._35(null,["\n  "])),(l()(),u._14(0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,w.b,w.a)),u._13(49152,null,0,x.a,[O.a,[2,L.a],[2,B.a],y.a,u.o,u.M],{color:[0,"color"]},null),(l()(),u._35(3,["\n    "])),(l()(),u._14(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,t){var o=!0;"click"===n&&(o=!1!==u._27(l,8).toggle()&&o);return o},F.b,F.a)),u._13(1097728,[[1,4]],0,T.a,[[8,""],y.a,u.o,u.M],null,null),u._13(1064960,null,0,j.a,[I.a,[2,L.a],[2,T.a],[2,x.a]],{menuToggle:[0,"menuToggle"]},null),u._13(16384,null,1,N.a,[y.a,u.o,u.M,[2,H.a],[2,x.a]],null,null),u._33(603979776,1,{_buttons:1}),(l()(),u._35(0,["\n      "])),(l()(),u._14(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u._13(147456,null,0,z.a,[y.a,u.o,u.M],{name:[0,"name"]},null),(l()(),u._35(0,["\n    "])),(l()(),u._35(3,["\n    "])),(l()(),u._14(0,null,3,2,"ion-title",[],null,null,null,A.b,A.a)),u._13(49152,null,0,E.a,[y.a,u.o,u.M,[2,H.a],[2,x.a]],null,null),(l()(),u._35(0,["Home"])),(l()(),u._35(3,["\n  "])),(l()(),u._35(null,["\n"])),(l()(),u._35(null,["\n"])),(l()(),u._14(0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,D.b,D.a)),u._13(4374528,null,0,R.a,[y.a,Y.a,q.a,u.o,u.M,O.a,K.a,u.E,[2,L.a],[2,B.a]],null,null),(l()(),u._35(1,["\n  "])),(l()(),u._14(0,null,1,5,"ion-list",[],null,null,null,null,null)),u._13(16384,null,0,Z.a,[y.a,u.o,u.M,Y.a,$.j,q.a],null,null),(l()(),u._35(null,["\n    "])),(l()(),u._10(16777216,null,null,1,null,U)),u._13(802816,null,0,i.j,[u.Y,u.U,u.x],{ngForOf:[0,"ngForOf"]},null),(l()(),u._35(null,["\n  "])),(l()(),u._35(1,["\n"])),(l()(),u._35(null,["\n"]))],function(l,n){var t=n.component;l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu"),l(n,29,0,t.items)},function(l,n){l(n,3,0,u._27(n,4)._hidden,u._27(n,4)._sbPadding),l(n,6,0,u._27(n,8).isHidden),l(n,12,0,u._27(n,13)._hidden),l(n,22,0,u._27(n,23).statusbarPadding,u._27(n,23)._hasRefresher)})}var Q=u._11("page-home",a,function(l){return u._37(0,[(l()(),u._14(0,null,null,1,"page-home",[],null,null,null,G,J)),u._13(49152,null,0,a,[B.a],null,null)],null,null)},{},{},[]),S=t(121);t.d(n,"HomeListPageModuleNgFactory",function(){return X});var V,W=this&&this.__extends||(V=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var t in n)n.hasOwnProperty(t)&&(l[t]=n[t])},function(l,n){function t(){this.constructor=l}V(l,n),l.prototype=null===n?Object.create(n):(t.prototype=n.prototype,new t)}),X=new u.B(function(l){function n(n){return l.call(this,n,[r.a,c.a,b.a,d.a,m.a,g.a,h.a,p.a,Q],[])||this}return W(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new i.l(this.parent.get(u.z))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new _.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new _.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new i.c,this._ɵba_1=new _.o,this._FormsModule_2=new _.g,this._ReactiveFormsModule_3=new _.m,this._IonicModule_4=new s.a,this._IonicPageModule_5=new s.b,this._HomeListPageModule_6=new e,this._LAZY_LOADED_TOKEN_10=a,this._HomeListPageModule_6},n.prototype.getInternal=function(l,n){return l===i.c?this._CommonModule_0:l===_.o?this._ɵba_1:l===_.g?this._FormsModule_2:l===_.m?this._ReactiveFormsModule_3:l===s.a?this._IonicModule_4:l===s.b?this._IonicPageModule_5:l===e?this._HomeListPageModule_6:l===i.m?this._NgLocalization_7:l===_.q?this._ɵi_8:l===_.d?this._FormBuilder_9:l===S.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(u._9),e)},1596:function(l,n,t){"use strict";t.d(n,"a",function(){return s}),n.b=r;var u=t(1),o=t(45),a=t(391),e=t(4),i=t(196),_=t(142),s=u._12({encapsulation:2,styles:[],data:{}});function r(l){return u._37(2,[(l()(),u._14(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),u._13(278528,null,0,o.i,[u.x,u.y,u.o,u.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u._26(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u._11("ion-title",a.a,function(l){return u._37(0,[(l()(),u._14(0,null,null,1,"ion-title",[],null,null,null,r,s)),u._13(49152,null,0,a.a,[e.a,u.o,u.M,[2,i.a],[2,_.a]],null,null)],null,null)},{color:"color",mode:"mode"},{},["*"])},1599:function(l,n,t){"use strict";t.d(n,"a",function(){return d}),n.b=m;var u=t(1),o=t(45),a=t(142),e=t(195),i=t(67),_=t(4),s=t(120),r=t(23),c=t(15),b=t(73),d=u._12({encapsulation:2,styles:[],data:{}});function m(l){return u._37(0,[(l()(),u._14(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),u._13(278528,null,0,o.i,[u.x,u.y,u.o,u.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),u._14(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,t){var u=!0;"click"===n&&(u=!1!==l.component.backButtonClick(t)&&u);return u},e.b,e.a)),u._13(278528,null,0,o.i,[u.x,u.y,u.o,u.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u._13(1097728,null,0,i.a,[[8,"bar-button"],_.a,u.o,u.M],null,null),(l()(),u._14(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u._13(278528,null,0,o.i,[u.x,u.y,u.o,u.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u._13(147456,null,0,s.a,[_.a,u.o,u.M],{name:[0,"name"]},null),(l()(),u._14(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),u._13(278528,null,0,o.i,[u.x,u.y,u.o,u.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),u._35(null,["",""])),u._26(null,0),u._26(null,1),u._26(null,2),(l()(),u._14(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),u._13(278528,null,0,o.i,[u.x,u.y,u.o,u.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u._26(null,3)],function(l,n){var t=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+t._mode);l(n,3,0,"back-button","back-button-"+t._mode);l(n,6,0,"back-button-icon","back-button-icon-"+t._mode),l(n,7,0,t._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+t._mode);l(n,15,0,"toolbar-content","toolbar-content-"+t._mode)},function(l,n){var t=n.component;l(n,2,0,t._hideBb),l(n,5,0,u._27(n,7)._hidden),l(n,10,0,t._backText)})}u._11("ion-navbar",a.a,function(l){return u._37(0,[(l()(),u._14(0,null,null,1,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,m,d)),u._13(49152,null,0,a.a,[r.a,[2,c.a],[2,b.a],_.a,u.o,u.M],null,null)],null,function(l,n){l(n,0,0,u._27(n,1)._hidden,u._27(n,1)._sbPadding)})},{color:"color",mode:"mode",hideBackButton:"hideBackButton"},{},["[menuToggle],ion-buttons[left]","ion-buttons[start]","ion-buttons[end],ion-buttons[right]","*"])}});
+webpackJsonp([32],{
+
+/***/ 1645:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginSliderPageModule", function() { return LoginSliderPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__login__ = __webpack_require__(1710);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(65);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var LoginSliderPageModule = (function () {
+    function LoginSliderPageModule() {
+    }
+    return LoginSliderPageModule;
+}());
+LoginSliderPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_0__login__["a" /* LoginPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_0__login__["a" /* LoginPage */]),
+        ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_0__login__["a" /* LoginPage */]
+        ]
+    })
+], LoginSliderPageModule);
+
+//# sourceMappingURL=login.module.js.map
+
+/***/ }),
+
+/***/ 1710:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase_app__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_firebase_app__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_service__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_global_setting__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_crypto_js__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_crypto_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_crypto_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_wallet_service__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_web3_service__ = __webpack_require__(180);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+// import { FormBuilder, FormControl, Validator } from '@angular/forms';
+
+
+
+
+
+
+
+
+
+var LoginPage = (function () {
+    function LoginPage(userService, navCtrl, loadingCtrl, alertCtrl, afAuth, global, menuCtrl, walletService, web3Service) {
+        this.userService = userService;
+        this.navCtrl = navCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.afAuth = afAuth;
+        this.global = global;
+        this.menuCtrl = menuCtrl;
+        this.walletService = walletService;
+        this.web3Service = web3Service;
+        this.alive = true;
+        this.account = {
+            username: '',
+            password: ''
+        };
+    }
+    LoginPage.prototype.goToLogin = function () {
+        this.navCtrl.push('FirebaseLoginPage');
+    };
+    LoginPage.prototype.goToSignup = function () {
+        this.navCtrl.push('RegisterPage');
+    };
+    LoginPage.prototype.slideNext = function () {
+        this.innerSlider.slideNext();
+    };
+    LoginPage.prototype.slidePrevious = function () {
+        this.innerSlider.slidePrev();
+    };
+    LoginPage.prototype.presentLoading = function (message) {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            duration: 500
+        });
+        loading.onDidDismiss(function () {
+            var alert = _this.alertCtrl.create({
+                title: 'Success',
+                subTitle: message,
+                buttons: ['Dismiss']
+            });
+            alert.present();
+        });
+        loading.present();
+    };
+    LoginPage.prototype.ionViewDidLoad = function () {
+        //Check if already authenticated
+        var _this = this;
+        this.userService.checkAuthentication().takeWhile(function () { return _this.alive; }).subscribe(function (auth) {
+            if (auth) {
+                _this.userService.getProfil(auth.uid).takeWhile(function () { return _this.alive; }).subscribe(function (p) {
+                    _this.userService._profil = p;
+                    _this.global.set('profil', p);
+                    var password = null;
+                    var decrypted = null;
+                    var prompt = _this.alertCtrl.create({
+                        title: 'Unlock your wallet',
+                        subTitle: 'Enter your password',
+                        cssClass: 'promt-alert',
+                        inputs: [
+                            {
+                                name: 'password',
+                                placeholder: 'Password',
+                                type: 'password'
+                            },
+                        ],
+                        buttons: [
+                            {
+                                text: 'Cancel',
+                                handler: function (data) {
+                                    //console.log('Cancel clicked');
+                                }
+                            },
+                            {
+                                text: 'Validate',
+                                handler: function (data) {
+                                    password = data.password.trim();
+                                    var decrypted = null;
+                                    try {
+                                        decrypted = __WEBPACK_IMPORTED_MODULE_6_crypto_js__["AES"].decrypt(_this.walletService.wallets.eth.private, password);
+                                    }
+                                    catch (e) {
+                                        decrypted = null;
+                                    }
+                                    if (decrypted) {
+                                        _this.web3Service.initWeb3(password, _this.walletService.wallets.eth.private, _this.walletService.wallets.eth.address);
+                                        _this.menuCtrl.enable(true, 'menu-material');
+                                        if (!_this.userService._profil.uid) {
+                                            _this.navCtrl.setRoot('ProfileSettingsPage', { isNew: true });
+                                        }
+                                        else {
+                                            _this.navCtrl.setRoot('TabsPage');
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    });
+                    prompt.present();
+                });
+            }
+        });
+    };
+    LoginPage.prototype.ionViewWillLeave = function () {
+        this.alive = false;
+    };
+    // Attempt to login in through our User service
+    LoginPage.prototype.login = function () {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            content: 'Please wait while login'
+        });
+        loading.present();
+        if (!this.account.username || !this.account.password) {
+            var alert_1 = this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'Please fill fields',
+                buttons: ['Dismiss']
+            });
+            loading.dismissAll();
+            alert_1.present();
+            return;
+        }
+        this.userService.login(this.account).then(function (resp) {
+            loading.dismissAll();
+            _this.userService.getProfil(resp.uid).takeWhile(function () { return _this.alive; }).subscribe(function (p) {
+                _this.userService._profil = p;
+                _this.global.set('profil', p);
+                _this.menuCtrl.enable(true, 'menu-material');
+                if (!_this.userService._profil.uid) {
+                    _this.navCtrl.setRoot('ProfileSettingsPage', { isNew: true });
+                }
+                else {
+                    _this.navCtrl.setRoot('TabsPage');
+                }
+            });
+        }, function (err) {
+            var alert1 = _this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'No valid email/password',
+                buttons: ['Dismiss']
+            });
+            loading.dismissAll();
+            alert1.present();
+        });
+    };
+    LoginPage.prototype.signup = function () {
+        var _this = this;
+        if (!this.account.username || !this.account.password || this.account.password != this.confirmPassword) {
+            var alert_2 = this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'No valid email/password',
+                buttons: ['Dismiss']
+            });
+            alert_2.present();
+            return;
+        }
+        var loading = this.loadingCtrl.create({
+            content: 'Please wait while creating your account'
+        });
+        loading.present();
+        this.userService.signup(this.account).then(function (resp) {
+            _this.userService.login(_this.account).then(function (resp1) {
+                loading.dismissAll();
+                _this.navCtrl.setRoot('ProfileSettingsPage', { isNew: true });
+            }, function (err) {
+                var alert1 = _this.alertCtrl.create({
+                    title: 'Error',
+                    subTitle: 'No valid email/password',
+                    buttons: ['Dismiss']
+                });
+                loading.dismissAll();
+                alert1.present();
+            });
+        }).catch(function (err) {
+            //console.log("Unable to sign up", err);
+            loading.dismissAll();
+            _this.alertCtrl.create({
+                title: 'Error',
+                subTitle: err.message,
+                buttons: ['Close']
+            }).present();
+        });
+    };
+    LoginPage.prototype.resetPassword = function () {
+        this.presentLoading('An e-mail was sent with your new password.');
+    };
+    LoginPage.prototype.loginGoogle = function () {
+        var _this = this;
+        this.afAuth.auth.signInWithPopup(new __WEBPACK_IMPORTED_MODULE_3_firebase_app__["auth"].GoogleAuthProvider()).then(function (success) {
+            _this.navCtrl.setRoot('TabsPage');
+        }).catch(function (err) {
+            //console.log("Unable to log in", err);
+        });
+    };
+    return LoginPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])('slider'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Slides */])
+], LoginPage.prototype, "slider", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])('innerSlider'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Slides */])
+], LoginPage.prototype, "innerSlider", void 0);
+LoginPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-login',template:/*ion-inline-start:"D:\ivpay2\src\pages\auth\login.html"*/'<ion-content class="transparent-header">\n\n  <ion-header>\n\n    <ion-navbar>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  <ion-slides #slider  direction="vertical">\n\n      <ion-slide class="swiper-no-swiping">\n\n        <div padding>\n\n          <img class="logo" src="assets/img/logo/neoplace1.png" width="100"/>\n\n          <ion-slides class="text-slider" autoplay="2000" loop="true">\n\n            <ion-slide>\n\n              <h3>Welcome to NeoPlace</h3>\n\n              <p>Buy & sell any good, any service</p>\n\n            </ion-slide>\n\n            <ion-slide>\n\n              <h3>NeoPlace Pay</h3>\n\n              <p>It has never been easier to pay in cryptocurrency</p>\n\n            </ion-slide>\n\n            <ion-slide>\n\n              <h3>NeoPlace</h3>\n\n              <p>The decentralized Marketplace</p>\n\n            </ion-slide>\n\n            <ion-slide>\n\n              <h3>NeoPlace Market</h3>\n\n              <p>Find any product around you and the world</p>\n\n            </ion-slide>\n\n            <ion-slide>\n\n              <h3>NeoPlace Services</h3>\n\n              <p>Find any service around you and the world</p>\n\n            </ion-slide>\n\n          </ion-slides>\n\n          <ion-row>\n\n            <ion-col col-6>\n\n              <button ion-button block color="primary" outline (click)="goToLogin()">Log in</button>\n\n            </ion-col>\n\n            <ion-col col-6>\n\n              <button ion-button block (click)="goToSignup()">Create Account</button>\n\n            </ion-col>\n\n          </ion-row>\n\n        </div>\n\n      </ion-slide>\n\n      <ion-slide class="zoom swiper-no-swiping">\n\n        <ion-slides #innerSlider class="content-slider">\n\n          <ion-slide class="swiper-no-swiping">\n\n            <div padding-left padding-right text-left>\n\n              <h1 padding-horizontal>Login</h1>\n\n              <ion-item padding-right>\n\n                <ion-label floating>Email</ion-label>\n\n                <ion-input type="email" [(ngModel)]="account.username"></ion-input>\n\n              </ion-item>\n\n              <ion-item padding-right>\n\n                <ion-label floating>Password</ion-label>\n\n                <ion-input type="password" [(ngModel)]="account.password"></ion-input>\n\n              </ion-item>\n\n              <div padding>\n\n                <button ion-button block (click)="login()">Login</button>\n\n                <button no-padding ion-button clear (click)="slideNext()" color="light">FORGOT PASSWORD?</button>\n\n              </div>\n\n              <button small clear text-left margin-top ion-button icon-right clear (click)="goToSignup()">\n\n                GO TO SIGNUP\n\n                <ion-icon end name="arrow-down"></ion-icon>\n\n              </button>\n\n            </div>\n\n          </ion-slide>\n\n          <ion-slide class="swiper-no-swiping">\n\n            <div padding>\n\n              <h1 text-left padding-horizontal>Forgot Password?</h1>\n\n              <p text-left padding-horizontal>We will send the confirmation link to reset your password.</p>\n\n              <ion-item padding-right>\n\n                <ion-label floating>E-mail</ion-label>\n\n                <ion-input type="email"></ion-input>\n\n              </ion-item>\n\n              <div padding>\n\n                <button ion-button block (click)="resetPassword()">RESET PASSWORD</button>\n\n                <button small ion-button icon-left float-left no-padding clear (click)="slidePrevious()" color="light"><ion-icon name="arrow-back"></ion-icon> GO BACK</button>\n\n              </div>\n\n            </div>\n\n          </ion-slide>\n\n        </ion-slides>\n\n      </ion-slide>\n\n      <ion-slide class="zoom swiper-no-swiping">\n\n        <div padding-left padding-right text-left>\n\n          <button small text-left margin-bottom ion-button icon-right clear (click)="goToLogin()">\n\n            GO TO LOGIN\n\n            <ion-icon end name="arrow-up"></ion-icon>\n\n          </button>\n\n          <h1 padding-horizontal>Create account</h1>\n\n          <p padding-horizontal>Join NeoPlace.</p>\n\n          <ion-item padding-right>\n\n            <ion-label floating>Email</ion-label>\n\n            <ion-input type="email" [(ngModel)]="account.username"></ion-input>\n\n          </ion-item>\n\n          <ion-item padding-right>\n\n            <ion-label floating>Password</ion-label>\n\n            <ion-input type="password" [(ngModel)]="account.password"></ion-input>\n\n          </ion-item>\n\n          <ion-item padding-right>\n\n            <ion-label floating>Confirm Password</ion-label>\n\n            <ion-input type="password" [(ngModel)]="confirmPassword"></ion-input>\n\n          </ion-item>\n\n          <div padding>\n\n            <button ion-button block (click)="signup()">SIGN UP</button>\n\n          </div>\n\n          </div>\n\n      </ion-slide>\n\n    </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\ivpay2\src\pages\auth\login.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__providers_user_service__["a" /* UserService */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__["a" /* AngularFireAuth */],
+        __WEBPACK_IMPORTED_MODULE_5__app_global_setting__["a" /* AppState */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */],
+        __WEBPACK_IMPORTED_MODULE_7__providers_wallet_service__["a" /* WalletService */],
+        __WEBPACK_IMPORTED_MODULE_8__providers_web3_service__["a" /* Web3Service */]])
+], LoginPage);
+
+//# sourceMappingURL=login.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=32.js.map

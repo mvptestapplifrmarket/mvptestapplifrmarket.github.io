@@ -1,1 +1,162 @@
-webpackJsonp([30],{1585:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var o=u(1),t=(u(68),function(){function l(l,n){this.navCtrl=l,this.menuCtrl=n,this.MENU={DEFAULT:"menu-components",MATERIAL:"menu-material",AVATAR:"menu-avatar"}}return l.prototype.changeMenu=function(l){var n=this;Object.keys(this.MENU).map(function(l){return n.menuCtrl.enable(!1,n.MENU[l])}),this.menuCtrl.enable(!0,l),this.menuCtrl.open(l)},l}()),a=function(){return function(){}}(),e=u(45),i=u(59),_=u(392),r=u(662),c=u(663),s=u(664),b=u(665),d=u(666),h=u(667),g=u(668),m=u(669),f=u(393),M=u(4),k=u(15),p=u(1599),y=u(142),v=u(23),C=u(73),A=u(394),T=u(196),w=u(195),E=u(67),P=u(397),N=u(69),L=u(120),O=u(1596),B=u(391),F=u(670),x=u(103),I=u(13),D=u(26),U=u(74),j=o._12({encapsulation:2,styles:[],data:{}});function R(l){return o._37(0,[(l()(),o._14(0,null,null,40,"ion-header",[],null,null,null,null,null)),o._13(16384,null,0,f.a,[M.a,o.o,o.M,[2,k.a]],null,null),(l()(),o._35(null,["\n  "])),(l()(),o._14(0,null,null,36,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,p.b,p.a)),o._13(49152,null,0,y.a,[v.a,[2,k.a],[2,C.a],M.a,o.o,o.M],{color:[0,"color"]},null),(l()(),o._35(3,["\n    "])),(l()(),o._14(0,null,0,13,"ion-buttons",[["left",""]],null,null,null,null,null)),o._13(16384,null,1,A.a,[M.a,o.o,o.M,[2,T.a],[2,y.a]],null,null),o._33(603979776,1,{_buttons:1}),(l()(),o._35(null,["\n      "])),(l()(),o._14(0,null,null,8,"button",[["icon-only",""],["ion-button",""],["menuToggle","left"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;"click"===n&&(t=!1!==o._27(l,12).toggle()&&t);return t},w.b,w.a)),o._13(1097728,[[2,4],[1,4]],0,E.a,[[8,""],M.a,o.o,o.M],null,null),o._13(1064960,null,0,P.a,[N.a,[2,k.a],[2,E.a],[2,y.a]],{menuToggle:[0,"menuToggle"]},null),o._13(16384,null,1,A.a,[M.a,o.o,o.M,[2,T.a],[2,y.a]],null,null),o._33(603979776,2,{_buttons:1}),(l()(),o._35(0,["\n        "])),(l()(),o._14(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._13(147456,null,0,L.a,[M.a,o.o,o.M],{name:[0,"name"]},null),(l()(),o._35(0,["\n      "])),(l()(),o._35(null,["\n    "])),(l()(),o._35(3,["\n    "])),(l()(),o._14(0,null,3,2,"ion-title",[],null,null,null,O.b,O.a)),o._13(49152,null,0,B.a,[M.a,o.o,o.M,[2,T.a],[2,y.a]],null,null),(l()(),o._35(0,["Side Menu"])),(l()(),o._35(3,["\n    "])),(l()(),o._14(0,null,2,13,"ion-buttons",[["right",""]],null,null,null,null,null)),o._13(16384,null,1,A.a,[M.a,o.o,o.M,[2,T.a],[2,y.a]],null,null),o._33(603979776,3,{_buttons:1}),(l()(),o._35(null,["\n      "])),(l()(),o._14(0,null,null,8,"button",[["icon-only",""],["ion-button",""],["menuToggle","right"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;"click"===n&&(t=!1!==o._27(l,31).toggle()&&t);return t},w.b,w.a)),o._13(1097728,[[4,4],[3,4]],0,E.a,[[8,""],M.a,o.o,o.M],null,null),o._13(1064960,null,0,P.a,[N.a,[2,k.a],[2,E.a],[2,y.a]],{menuToggle:[0,"menuToggle"]},null),o._13(16384,null,1,A.a,[M.a,o.o,o.M,[2,T.a],[2,y.a]],null,null),o._33(603979776,4,{_buttons:1}),(l()(),o._35(0,["\n        "])),(l()(),o._14(0,null,0,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._13(147456,null,0,L.a,[M.a,o.o,o.M],{name:[0,"name"]},null),(l()(),o._35(0,["\n      "])),(l()(),o._35(null,["\n    "])),(l()(),o._35(3,["\n  "])),(l()(),o._35(null,["\n"])),(l()(),o._35(null,["\n"])),(l()(),o._14(0,null,null,17,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,F.b,F.a)),o._13(4374528,null,0,x.a,[M.a,I.a,D.a,o.o,o.M,v.a,U.a,o.E,[2,k.a],[2,C.a]],null,null),(l()(),o._35(1,["\n  "])),(l()(),o._14(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),o._35(null,["The home icon on the right is a small width sidemenu."])),(l()(),o._35(1,["\n  "])),(l()(),o._14(0,null,1,2,"button",[["block",""],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var o=!0,t=l.component;"click"===n&&(o=!1!==t.changeMenu(t.MENU.DEFAULT)&&o);return o},w.b,w.a)),o._13(1097728,null,0,E.a,[[8,""],M.a,o.o,o.M],{color:[0,"color"],block:[1,"block"]},null),(l()(),o._35(0,["Default sidemenu"])),(l()(),o._35(1,["\n  "])),(l()(),o._14(0,null,1,2,"button",[["block",""],["color","danger"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var o=!0,t=l.component;"click"===n&&(o=!1!==t.changeMenu(t.MENU.AVATAR)&&o);return o},w.b,w.a)),o._13(1097728,null,0,E.a,[[8,""],M.a,o.o,o.M],{color:[0,"color"],block:[1,"block"]},null),(l()(),o._35(0,["Sidemenu with avatar"])),(l()(),o._35(1,["\n  "])),(l()(),o._14(0,null,1,2,"button",[["block",""],["color","black"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var o=!0,t=l.component;"click"===n&&(o=!1!==t.changeMenu(t.MENU.MATERIAL)&&o);return o},w.b,w.a)),o._13(1097728,null,0,E.a,[[8,""],M.a,o.o,o.M],{color:[0,"color"],block:[1,"block"]},null),(l()(),o._35(0,["Material Design"])),(l()(),o._35(1,["\n"])),(l()(),o._35(null,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,12,0,"left");l(n,17,0,"menu");l(n,31,0,"right");l(n,36,0,"home");l(n,49,0,"secondary","");l(n,53,0,"danger","");l(n,57,0,"black","")},function(l,n){l(n,3,0,o._27(n,4)._hidden,o._27(n,4)._sbPadding),l(n,10,0,o._27(n,12).isHidden),l(n,16,0,o._27(n,17)._hidden),l(n,29,0,o._27(n,31).isHidden),l(n,35,0,o._27(n,36)._hidden),l(n,42,0,o._27(n,43).statusbarPadding,o._27(n,43)._hasRefresher)})}var z=o._11("page-side-menu",t,function(l){return o._37(0,[(l()(),o._14(0,null,null,1,"page-side-menu",[],null,null,null,R,j)),o._13(49152,null,0,t,[C.a,N.a],null,null)],null,null)},{},{},[]),S=u(121);u.d(n,"SideMenuPageModuleNgFactory",function(){return K});var q,H=this&&this.__extends||(q=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])},function(l,n){function u(){this.constructor=l}q(l,n),l.prototype=null===n?Object.create(n):(u.prototype=n.prototype,new u)}),K=new o.B(function(l){function n(n){return l.call(this,n,[r.a,c.a,s.a,b.a,d.a,h.a,g.a,m.a,z],[])||this}return H(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new e.l(this.parent.get(o.z))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new i.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new i.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new e.c,this._ɵba_1=new i.o,this._FormsModule_2=new i.g,this._ReactiveFormsModule_3=new i.m,this._IonicModule_4=new _.a,this._IonicPageModule_5=new _.b,this._SideMenuPageModule_6=new a,this._LAZY_LOADED_TOKEN_10=t,this._SideMenuPageModule_6},n.prototype.getInternal=function(l,n){return l===e.c?this._CommonModule_0:l===i.o?this._ɵba_1:l===i.g?this._FormsModule_2:l===i.m?this._ReactiveFormsModule_3:l===_.a?this._IonicModule_4:l===_.b?this._IonicPageModule_5:l===a?this._SideMenuPageModule_6:l===e.m?this._NgLocalization_7:l===i.q?this._ɵi_8:l===i.d?this._FormBuilder_9:l===S.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(o._9),a)},1596:function(l,n,u){"use strict";u.d(n,"a",function(){return r}),n.b=c;var o=u(1),t=u(45),a=u(391),e=u(4),i=u(196),_=u(142),r=o._12({encapsulation:2,styles:[],data:{}});function c(l){return o._37(2,[(l()(),o._14(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),o._13(278528,null,0,t.i,[o.x,o.y,o.o,o.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._26(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}o._11("ion-title",a.a,function(l){return o._37(0,[(l()(),o._14(0,null,null,1,"ion-title",[],null,null,null,c,r)),o._13(49152,null,0,a.a,[e.a,o.o,o.M,[2,i.a],[2,_.a]],null,null)],null,null)},{color:"color",mode:"mode"},{},["*"])},1599:function(l,n,u){"use strict";u.d(n,"a",function(){return d}),n.b=h;var o=u(1),t=u(45),a=u(142),e=u(195),i=u(67),_=u(4),r=u(120),c=u(23),s=u(15),b=u(73),d=o._12({encapsulation:2,styles:[],data:{}});function h(l){return o._37(0,[(l()(),o._14(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),o._13(278528,null,0,t.i,[o.x,o.y,o.o,o.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._14(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var o=!0;"click"===n&&(o=!1!==l.component.backButtonClick(u)&&o);return o},e.b,e.a)),o._13(278528,null,0,t.i,[o.x,o.y,o.o,o.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._13(1097728,null,0,i.a,[[8,"bar-button"],_.a,o.o,o.M],null,null),(l()(),o._14(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._13(278528,null,0,t.i,[o.x,o.y,o.o,o.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._13(147456,null,0,r.a,[_.a,o.o,o.M],{name:[0,"name"]},null),(l()(),o._14(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),o._13(278528,null,0,t.i,[o.x,o.y,o.o,o.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._35(null,["",""])),o._26(null,0),o._26(null,1),o._26(null,2),(l()(),o._14(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),o._13(278528,null,0,t.i,[o.x,o.y,o.o,o.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._26(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,o._27(n,7)._hidden),l(n,10,0,u._backText)})}o._11("ion-navbar",a.a,function(l){return o._37(0,[(l()(),o._14(0,null,null,1,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,h,d)),o._13(49152,null,0,a.a,[c.a,[2,s.a],[2,b.a],_.a,o.o,o.M],null,null)],null,function(l,n){l(n,0,0,o._27(n,1)._hidden,o._27(n,1)._sbPadding)})},{color:"color",mode:"mode",hideBackButton:"hideBackButton"},{},["[menuToggle],ion-buttons[left]","ion-buttons[start]","ion-buttons[end],ion-buttons[right]","*"])}});
+webpackJsonp([30],{
+
+/***/ 1647:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterPageModule", function() { return RegisterPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register__ = __webpack_require__(1712);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var RegisterPageModule = (function () {
+    function RegisterPageModule() {
+    }
+    return RegisterPageModule;
+}());
+RegisterPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__register__["a" /* RegisterPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__register__["a" /* RegisterPage */]),
+        ],
+    })
+], RegisterPageModule);
+
+//# sourceMappingURL=register.module.js.map
+
+/***/ }),
+
+/***/ 1712:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_service__ = __webpack_require__(135);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var RegisterPage = (function () {
+    function RegisterPage(toastCtrl, loadingCtrl, alertCtrl, navCtrl, navParams, formBuilder, userService) {
+        this.toastCtrl = toastCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.formBuilder = formBuilder;
+        this.userService = userService;
+        this.regisForm = this.formBuilder.group({
+            'emailRegister': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].pattern(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/)])],
+            'passwordRegister': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(6)])],
+            'confirmPassword': ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(6)])]
+        });
+        this.emailRegister = this.regisForm.controls['emailRegister'];
+        this.passwordRegister = this.regisForm.controls['passwordRegister'];
+        this.confirmPassword = this.regisForm.controls['confirmPassword'];
+    }
+    RegisterPage.prototype.doRegister = function () {
+        var _this = this;
+        var account = ({ username: this.emailRegister.value.trim(), password: this.passwordRegister.value.trim() });
+        if (!account.username || !account.password || account.password != this.confirmPassword.value) {
+            var alert_1 = this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'No valid email/password',
+                buttons: ['Dismiss']
+            });
+            alert_1.present();
+            return;
+        }
+        var loading = this.loadingCtrl.create({
+            content: 'Please wait while creating your account'
+        });
+        loading.present();
+        this.userService.signup(account).then(function (resp) {
+            _this.userService.login(account).then(function (resp1) {
+                loading.dismiss();
+                _this.navCtrl.setRoot('ProfileSettingsPage', { isNew: true });
+            }, function (err) {
+                var alert1 = _this.alertCtrl.create({
+                    title: 'Error',
+                    subTitle: 'No valid email/password',
+                    buttons: ['Dismiss']
+                });
+                loading.dismiss();
+                alert1.present();
+            });
+        }).catch(function (err) {
+            //console.log("Unable to sign up", err);
+            loading.dismiss();
+            _this.alertCtrl.create({
+                title: 'Error',
+                subTitle: err.message,
+                buttons: ['Close']
+            }).present();
+        });
+    };
+    RegisterPage.prototype.showLoading = function () {
+        this.loading = this.loadingCtrl.create({
+            content: 'Please wait...'
+        });
+        this.loading.present();
+    };
+    RegisterPage.prototype.showError = function (text) {
+        var alert = this.alertCtrl.create({
+            title: 'Fail',
+            subTitle: text,
+            buttons: ['OK']
+        });
+        alert.present();
+    };
+    RegisterPage.prototype.hintFormatPassword = function () {
+        this.toastCtrl.create({
+            message: 'Minimum password length required : 6 characters',
+            duration: 4000,
+            position: 'bottom'
+        }).present();
+    };
+    return RegisterPage;
+}());
+RegisterPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-register',template:/*ion-inline-start:"D:\ivpay2\src\pages\auth\register\register.html"*/'<ion-content padding class="transparent-header">\n\n  <ion-header no-border>\n\n    <ion-navbar transparent>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  <div class="login-container">\n\n    <img class="logo" src="assets/img/logo/neoplace1.png" />\n\n    <h2>Register</h2>\n\n    <ion-row style="display: inline-block">\n\n      <form [formGroup]="regisForm" (ngSubmit)="doRegister()" #registerForm="ngForm">\n\n        <ion-item>\n\n          <ion-label>Email</ion-label>\n\n          <ion-input type="text" formControlName="emailRegister" ></ion-input>\n\n        </ion-item>\n\n        <ion-item>\n\n          <ion-label>Password</ion-label>\n\n          <ion-input type="password" formControlName="passwordRegister" (focusout)="!passwordRegister.valid ? hintFormatPassword() : false"></ion-input>\n\n        </ion-item>\n\n        <ion-item>\n\n          <ion-label>Confirm Password</ion-label>\n\n          <ion-input type="password" formControlName="confirmPassword" ></ion-input>\n\n        </ion-item>\n\n        <div>\n\n          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid || passwordRegister.value !== confirmPassword.value">SIGN UP</button>\n\n        </div>\n\n      </form>\n\n    </ion-row>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\ivpay2\src\pages\auth\register\register.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_user_service__["a" /* UserService */]])
+], RegisterPage);
+
+//# sourceMappingURL=register.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=30.js.map

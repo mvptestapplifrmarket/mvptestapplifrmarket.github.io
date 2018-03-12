@@ -1,1 +1,449 @@
-webpackJsonp([27],{1595:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=u(1),o=(u(68),u(408)),a=function(){function l(l,n,u){this.navCtrl=l,this.transactionService=u,this.days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],this.months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],this.currencies=Object.keys,this.wallet=n.get("wallet"),this.walletTransaction=this.transactionService.getWalletTransaction(this.wallet.trigram,this.wallet.address)}return l.prototype.ionViewDidLoad=function(){},l}(),e=function(){return function(){}}(),i=u(45),_=u(59),r=u(392),s=u(662),c=u(663),d=u(664),b=u(665),h=u(666),m=u(667),g=u(668),p=u(669),f=u(396),M=u(60),k=u(51),y=u(4),w=u(122),v=u(198),x=u(414),C=u(120),O=u(393),P=u(15),F=u(1599),T=u(142),B=u(23),L=u(73),D=u(195),j=u(67),N=u(397),I=u(69),A=u(394),W=u(196),z=u(1596),E=u(391),S=u(670),J=u(103),$=u(13),R=u(26),Y=u(74),q=u(143),K=u(20),Z=u(32),H=t._12({encapsulation:2,styles:[],data:{}});function U(l){return t._37(0,[(l()(),t._14(0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,f.b,f.a)),t._13(1097728,null,3,M.a,[k.a,y.a,t.o,t.M,[2,w.a]],null,null),t._33(335544320,2,{contentLabel:0}),t._33(603979776,3,{_buttons:1}),t._33(603979776,4,{_icons:1}),t._13(16384,null,0,v.a,[],null,null),(l()(),t._35(2,["\n      "])),(l()(),t._14(0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),t._13(16384,null,0,x.a,[],null,null),(l()(),t._35(null,["\n        "])),(l()(),t._14(0,null,null,1,"ion-icon",[["role","img"]],[[2,"hide",null]],null,null,null,null)),t._13(147456,null,0,C.a,[y.a,t.o,t.M],{name:[0,"name"]},null),(l()(),t._35(null,["\n      "])),(l()(),t._35(2,["\n      "])),(l()(),t._14(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),t._35(null,["",""])),(l()(),t._35(2,["\n      "])),(l()(),t._14(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),t._35(null,["",""])),(l()(),t._35(2,["\n      "])),(l()(),t._14(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),t._35(null,["",""])),(l()(),t._35(2,["\n    "]))],function(l,n){l(n,11,0,t._18(1,"",n.context.$implicit.spent?"md-arrow-round-up":"md-arrow-round-down",""))},function(l,n){var u=n.component;l(n,10,0,t._27(n,11)._hidden),l(n,15,0,n.context.$implicit.confirmed),l(n,18,0,"Transaction id "+n.context.$implicit.tx_hash),l(n,21,0,1e-8*n.context.$implicit.value+" "+u.wallet.trigram)})}function V(l){return t._37(0,[(l()(),t._14(0,null,null,20,"ion-header",[],null,null,null,null,null)),t._13(16384,null,0,O.a,[y.a,t.o,t.M,[2,P.a]],null,null),(l()(),t._35(null,["\n\n  "])),(l()(),t._14(0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"],["no-border-bottom",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,F.b,F.a)),t._13(49152,null,0,T.a,[B.a,[2,P.a],[2,L.a],y.a,t.o,t.M],{color:[0,"color"]},null),(l()(),t._35(3,["\n    "])),(l()(),t._14(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var o=!0;"click"===n&&(o=!1!==t._27(l,8).toggle()&&o);return o},D.b,D.a)),t._13(1097728,[[1,4]],0,j.a,[[8,""],y.a,t.o,t.M],null,null),t._13(1064960,null,0,N.a,[I.a,[2,P.a],[2,j.a],[2,T.a]],{menuToggle:[0,"menuToggle"]},null),t._13(16384,null,1,A.a,[y.a,t.o,t.M,[2,W.a],[2,T.a]],null,null),t._33(603979776,1,{_buttons:1}),(l()(),t._35(0,["\n      "])),(l()(),t._14(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._13(147456,null,0,C.a,[y.a,t.o,t.M],{name:[0,"name"]},null),(l()(),t._35(0,["\n    "])),(l()(),t._35(3,["\n    "])),(l()(),t._14(0,null,3,2,"ion-title",[],null,null,null,z.b,z.a)),t._13(49152,null,0,E.a,[y.a,t.o,t.M,[2,W.a],[2,T.a]],null,null),(l()(),t._35(0,["\n      Wallet details\n    "])),(l()(),t._35(3,["\n  "])),(l()(),t._35(null,["\n\n"])),(l()(),t._35(null,["\n\n\n"])),(l()(),t._14(0,null,null,10,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,S.b,S.a)),t._13(4374528,null,0,J.a,[y.a,$.a,R.a,t.o,t.M,B.a,Y.a,t.E,[2,P.a],[2,L.a]],null,null),(l()(),t._35(1,["\n  "])),(l()(),t._14(0,null,1,6,"ion-list",[],null,null,null,null,null)),t._13(16384,null,0,q.a,[y.a,t.o,t.M,$.a,K.j,R.a],null,null),(l()(),t._35(null,["\n    "])),(l()(),t._10(16777216,null,null,2,null,U)),t._13(802816,null,0,i.j,[t.Y,t.U,t.x],{ngForOf:[0,"ngForOf"]},null),t._29(131072,i.b,[t.i]),(l()(),t._35(null,["\n  "])),(l()(),t._35(1,["\n\n\n"])),(l()(),t._35(null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu"),l(n,29,0,t._36(n,29,0,t._27(n,30).transform(u.walletTransaction)))},function(l,n){l(n,3,0,t._27(n,4)._hidden,t._27(n,4)._sbPadding),l(n,6,0,t._27(n,8).isHidden),l(n,12,0,t._27(n,13)._hidden),l(n,22,0,t._27(n,23).statusbarPadding,t._27(n,23)._hasRefresher)})}var G=t._11("page-wallet-detail",a,function(l){return t._37(0,[(l()(),t._14(0,null,null,1,"page-wallet-detail",[],null,null,null,V,H)),t._13(49152,null,0,a,[L.a,Z.a,o.a],null,null)],null,null)},{},{},[]),Q=u(121);u.d(n,"WalletDetailPageModuleNgFactory",function(){return nl});var X,ll=this&&this.__extends||(X=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])},function(l,n){function u(){this.constructor=l}X(l,n),l.prototype=null===n?Object.create(n):(u.prototype=n.prototype,new u)}),nl=new t.B(function(l){function n(n){return l.call(this,n,[s.a,c.a,d.a,b.a,h.a,m.a,g.a,p.a,G],[])||this}return ll(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new i.l(this.parent.get(t.z))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new _.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new _.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new i.c,this._ɵba_1=new _.o,this._FormsModule_2=new _.g,this._ReactiveFormsModule_3=new _.m,this._IonicModule_4=new r.a,this._IonicPageModule_5=new r.b,this._WalletDetailPageModule_6=new e,this._LAZY_LOADED_TOKEN_10=a,this._WalletDetailPageModule_6},n.prototype.getInternal=function(l,n){return l===i.c?this._CommonModule_0:l===_.o?this._ɵba_1:l===_.g?this._FormsModule_2:l===_.m?this._ReactiveFormsModule_3:l===r.a?this._IonicModule_4:l===r.b?this._IonicPageModule_5:l===e?this._WalletDetailPageModule_6:l===i.m?this._NgLocalization_7:l===_.q?this._ɵi_8:l===_.d?this._FormBuilder_9:l===Q.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(t._9),e)},1596:function(l,n,u){"use strict";u.d(n,"a",function(){return r}),n.b=s;var t=u(1),o=u(45),a=u(391),e=u(4),i=u(196),_=u(142),r=t._12({encapsulation:2,styles:[],data:{}});function s(l){return t._37(2,[(l()(),t._14(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t._13(278528,null,0,o.i,[t.x,t.y,t.o,t.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._26(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}t._11("ion-title",a.a,function(l){return t._37(0,[(l()(),t._14(0,null,null,1,"ion-title",[],null,null,null,s,r)),t._13(49152,null,0,a.a,[e.a,t.o,t.M,[2,i.a],[2,_.a]],null,null)],null,null)},{color:"color",mode:"mode"},{},["*"])},1599:function(l,n,u){"use strict";u.d(n,"a",function(){return b}),n.b=h;var t=u(1),o=u(45),a=u(142),e=u(195),i=u(67),_=u(4),r=u(120),s=u(23),c=u(15),d=u(73),b=t._12({encapsulation:2,styles:[],data:{}});function h(l){return t._37(0,[(l()(),t._14(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t._13(278528,null,0,o.i,[t.x,t.y,t.o,t.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._14(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;"click"===n&&(t=!1!==l.component.backButtonClick(u)&&t);return t},e.b,e.a)),t._13(278528,null,0,o.i,[t.x,t.y,t.o,t.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._13(1097728,null,0,i.a,[[8,"bar-button"],_.a,t.o,t.M],null,null),(l()(),t._14(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._13(278528,null,0,o.i,[t.x,t.y,t.o,t.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._13(147456,null,0,r.a,[_.a,t.o,t.M],{name:[0,"name"]},null),(l()(),t._14(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t._13(278528,null,0,o.i,[t.x,t.y,t.o,t.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._35(null,["",""])),t._26(null,0),t._26(null,1),t._26(null,2),(l()(),t._14(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t._13(278528,null,0,o.i,[t.x,t.y,t.o,t.M],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._26(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,t._27(n,7)._hidden),l(n,10,0,u._backText)})}t._11("ion-navbar",a.a,function(l){return t._37(0,[(l()(),t._14(0,null,null,1,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,h,b)),t._13(49152,null,0,a.a,[s.a,[2,c.a],[2,d.a],_.a,t.o,t.M],null,null)],null,function(l,n){l(n,0,0,t._27(n,1)._hidden,t._27(n,1)._sbPadding)})},{color:"color",mode:"mode",hideBackButton:"hideBackButton"},{},["[menuToggle],ion-buttons[left]","ion-buttons[start]","ion-buttons[end],ion-buttons[right]","*"])}});
+webpackJsonp([27],{
+
+/***/ 1651:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeMarketPageModule", function() { return HomeMarketPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__homeMarket__ = __webpack_require__(1716);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__agm_core__ = __webpack_require__(688);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var HomeMarketPageModule = (function () {
+    function HomeMarketPageModule() {
+    }
+    return HomeMarketPageModule;
+}());
+HomeMarketPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_0__homeMarket__["a" /* HomeMarketPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_0__homeMarket__["a" /* HomeMarketPage */]),
+            __WEBPACK_IMPORTED_MODULE_3__agm_core__["a" /* AgmCoreModule */].forRoot({
+                apiKey: 'AIzaSyBWc6kOtjHwnrL3bTJWG5YklwyB8SxFm8A'
+            })
+        ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_0__homeMarket__["a" /* HomeMarketPage */]
+        ]
+    })
+], HomeMarketPageModule);
+
+//# sourceMappingURL=homeMarket.module.js.map
+
+/***/ }),
+
+/***/ 1716:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeMarketPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_global_setting__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_service__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_article_service__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__ = __webpack_require__(389);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_map_service__ = __webpack_require__(390);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var HomeMarketPage = (function () {
+    function HomeMarketPage(mapServiceProvider, renderer, loadingCtrl, userService, articleService, platform, geolocation, alertCtrl, navCtrl, viewCtrl) {
+        this.mapServiceProvider = mapServiceProvider;
+        this.renderer = renderer;
+        this.loadingCtrl = loadingCtrl;
+        this.userService = userService;
+        this.articleService = articleService;
+        this.platform = platform;
+        this.geolocation = geolocation;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.viewCtrl = viewCtrl;
+        this.title = 'NeoPlace';
+        this.markers = [];
+        this.alive = true;
+        //Main Menu
+        this.pages = __WEBPACK_IMPORTED_MODULE_2__app_global_setting__["e" /* PAGES2 */];
+    }
+    HomeMarketPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            if (_this.platform.is('android')) {
+                if (!_this.mapServiceProvider.map) {
+                    setTimeout(_this.loadMapNative.bind(_this), 1000);
+                }
+                else {
+                    _this.mapServiceProvider.map.setDiv(_this.mapElement.nativeElement);
+                    _this.mapServiceProvider.hideServices();
+                    _this.mapServiceProvider.displayArticles();
+                    if (_this.valueSearch) {
+                        _this.valueSearchBar = _this.valueSearch;
+                        _this.mapServiceProvider.findArticle(_this.valueSearch);
+                    }
+                    _this.mapServiceProvider.displayFiats();
+                }
+            }
+            else {
+                _this.zoom = 8;
+                // initial center position for the map
+                _this.lat = 0;
+                _this.lng = 0;
+                _this.loadMap();
+                _this.loadArticle();
+                //this.loadFiatPosition();
+            }
+        }).catch(function () {
+            //console.log("Platform error");
+        });
+    };
+    HomeMarketPage.prototype.displaySearchBar = function () {
+        var _this = this;
+        this.isDisplaySearch = !this.isDisplaySearch;
+        if (this.isDisplaySearch) {
+            setTimeout(function () {
+                _this.searchbar.setFocus();
+            });
+        }
+    };
+    HomeMarketPage.prototype.ionViewWillLeave = function () {
+        this.alive = false;
+        this.mapServiceProvider.findArticle('');
+        this.isDisplaySearch = false;
+        // if (this.platform.is('cordova')) {
+        //   //this.markers.forEach(marker => marker.remove());
+        //   this.mapServiceProvider.setDiv(null, null);
+        // }
+    };
+    HomeMarketPage.prototype.loadMapNative = function () {
+        var _this = this;
+        var loader = this.loadingCtrl.create({ content: 'Please wait...', duration: 5000 });
+        loader.present();
+        this.geolocation.getCurrentPosition({ maximumAge: 300000, timeout: 5000, enableHighAccuracy: true })
+            .then(function (position) {
+            var mapOptions = {
+                camera: {
+                    target: {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    },
+                    zoom: 5,
+                    tilt: 30
+                },
+                controls: {
+                    myLocationButton: true,
+                    myLocation: true
+                }
+            };
+            _this.mapServiceProvider.setDiv(_this.mapElement.nativeElement, mapOptions).then(function () {
+                //add markers, polyline, etc.
+                loader.dismiss().catch();
+                // Now you can use all methods safely.
+                _this.loadArticleNative();
+                //this.loadFiatPositionNative();
+            });
+        }).catch(function (error) {
+            var mapOptions = {
+                camera: {
+                    target: {
+                        lat: 0,
+                        lng: 0
+                    }
+                }
+            };
+            _this.mapServiceProvider.setDiv(_this.mapElement.nativeElement, mapOptions).then(function () {
+                //add markers, polyline, etc.
+                loader.dismiss().catch();
+                // Now you can use all methods safely.
+                _this.loadArticleNative();
+                //this.loadFiatPositionNative();
+            });
+        });
+    };
+    HomeMarketPage.prototype.showList = function (pages) {
+        if (pages.page == "TabsPage") {
+            this.navCtrl.setRoot(pages.page);
+        }
+        else {
+            this.navCtrl.push(pages.page);
+        }
+    };
+    HomeMarketPage.prototype.showPage = function (page) {
+        this.navCtrl
+            .push(page);
+        // .then(() => {
+        //   const index = this.viewCtrl.index;
+        //   this.navCtrl.remove(index);
+        // });
+    };
+    HomeMarketPage.prototype.loadArticleNative = function () {
+        var _this = this;
+        this.articleService.getArticles().takeWhile(function () { return _this.alive; }).subscribe(function (articles) {
+            articles.forEach(function (article) {
+                {
+                    if (article.uid != _this.userService._userFirebase.uid) {
+                        _this.mapServiceProvider.map.addMarker({
+                            icon: 'blue',
+                            animation: 'DROP',
+                            position: {
+                                lat: article.latitude,
+                                lng: article.longitude
+                            }
+                        })
+                            .then(function (marker) {
+                            _this.mapServiceProvider.markersArticle.push({ article: article, marker: marker });
+                            var listenRender;
+                            marker.on(__WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__["b" /* GoogleMapsEvent */].MARKER_CLICK)
+                                .subscribe(function () {
+                                var htmlInfoWindow = new __WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__["c" /* HtmlInfoWindow */]();
+                                var html = [
+                                    "<div class=\"pin\" style=\"width:150px;\"" + "id=\"" + article.$key + "\">",
+                                    "<ion-card>",
+                                    "<div class=\"pin\" style=\"height:113px\">",
+                                    "<img src=" + article.taked_picture + ">",
+                                    "</div>",
+                                    "</ion-card>",
+                                    "<div class=\"post-description\">",
+                                    article.price + " " + article.currency + "<br><strong>" + article.title + "</strong> <br><a>See item</a>",
+                                    "</div>",
+                                    "</div>"
+                                ].join("");
+                                htmlInfoWindow.setContent(html);
+                                htmlInfoWindow.open(marker);
+                                listenRender = _this.renderer.listen(_this.mapElement.nativeElement, 'click', function (evt) {
+                                    _this.seeDetails(article);
+                                });
+                            });
+                            marker.on(__WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__["b" /* GoogleMapsEvent */].INFO_CLOSE)
+                                .subscribe(function () {
+                                listenRender();
+                            });
+                        });
+                    }
+                }
+            });
+        });
+    };
+    HomeMarketPage.prototype.loadFiatPositionNative = function () {
+        var _this = this;
+        this.userService.getPositions().takeWhile(function () { return _this.alive; }).subscribe(function (positions) {
+            positions.forEach(function (position) {
+                if (position.$key != _this.userService._userFirebase.uid) {
+                    _this.userService.getProfil(position.$key).takeWhile(function () { return _this.alive; }).subscribe(function (profil) {
+                        _this.mapServiceProvider.map.addMarker({
+                            icon: 'green',
+                            animation: 'DROP',
+                            position: {
+                                lat: position.lat,
+                                lng: position.lng
+                            }
+                        })
+                            .then(function (marker) {
+                            _this.mapServiceProvider.markersFiat.push(marker);
+                            var listenRender;
+                            marker.on(__WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__["b" /* GoogleMapsEvent */].MARKER_CLICK)
+                                .subscribe(function () {
+                                var htmlInfoWindow = new __WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__["c" /* HtmlInfoWindow */]();
+                                var html = [
+                                    "<div class=\"pin\" style=\"width:150px;\"" + ">",
+                                    "<ion-avatar item-left>",
+                                    "<div class=\"pin\" style=\"height:113px\">",
+                                    "<img src=" + profil.imageUrl + ">",
+                                    "<strong>" + profil.pseudo + "</strong>",
+                                    "</div>",
+                                    "</ion-avatar>",
+                                    "<div class=\"post-description\">",
+                                    "Available for fiat exchange with <strong>" + profil.paymentMethod + "</strong> <br><a>Contact the NeoChanger</a>",
+                                    "</div>",
+                                    "</div>"
+                                ].join("");
+                                htmlInfoWindow.setContent(html);
+                                htmlInfoWindow.open(marker);
+                                listenRender = _this.renderer.listen(_this.mapElement.nativeElement, 'click', function (evt) {
+                                    _this.contact(profil, position.$key);
+                                });
+                            });
+                            marker.on(__WEBPACK_IMPORTED_MODULE_6__ionic_native_google_maps__["b" /* GoogleMapsEvent */].INFO_CLOSE)
+                                .subscribe(function () {
+                                listenRender();
+                            });
+                        });
+                    });
+                }
+            });
+        });
+    };
+    HomeMarketPage.prototype.loadArticle = function () {
+        var _this = this;
+        this.articleService.getArticles().takeWhile(function () { return _this.alive; }).subscribe(function (articles) {
+            articles.forEach(function (article) {
+                {
+                    if (article.uid != _this.userService._userFirebase.uid) {
+                        _this.addMarkerArticle(article);
+                    }
+                }
+            });
+        });
+    };
+    HomeMarketPage.prototype.findArticle = function (text1) {
+        this.markers.forEach(function (marker) {
+            if (text1 && text1.trim() != '' && marker.article) {
+                var text = text1.toLowerCase();
+                if (marker.article.title.toLowerCase().indexOf(text) >= 0) {
+                    marker.visible = true;
+                }
+                else if (marker.article.type.toLowerCase().indexOf(text) >= 0) {
+                    marker.visible = true;
+                }
+                else if (marker.article.description.toLowerCase().indexOf(text) >= 0) {
+                    marker.visible = true;
+                }
+                else if (marker.article.brand.toLowerCase().indexOf(text) >= 0) {
+                    marker.visible = true;
+                }
+                else {
+                    marker.visible = false;
+                }
+            }
+            else {
+                marker.visible = true;
+            }
+        });
+    };
+    HomeMarketPage.prototype.loadFiatPosition = function () {
+        var _this = this;
+        this.userService.getPositions().takeWhile(function () { return _this.alive; }).subscribe(function (positions) {
+            positions.forEach(function (position) {
+                _this.userService.getProfil(position.$key).takeWhile(function () { return _this.alive; }).subscribe(function (profil) {
+                    _this.addPositionFiat(position.lat, position.lng, profil, position.$key);
+                });
+            });
+        });
+    };
+    HomeMarketPage.prototype.seeDetails = function (item) {
+        this.navCtrl.push('ArticlePage', { article: item, key: item.$key });
+    };
+    HomeMarketPage.prototype.seeDetailsService = function (item) {
+        this.navCtrl.push('ServicePage', { service: item, key: item.$key });
+    };
+    HomeMarketPage.prototype.loadMap = function () {
+        var _this = this;
+        var loader = this.loadingCtrl.create({ content: 'Please wait...', duration: 10000 });
+        loader.present();
+        this.geolocation.getCurrentPosition()
+            .then(function (position) {
+            loader.dismiss().catch();
+            _this.lat = position.coords.latitude;
+            _this.lng = position.coords.longitude;
+            _this.markers.push({
+                lat: _this.lat,
+                lng: _this.lng,
+                draggable: false,
+                visible: true,
+                markerClickable: false,
+                iconUrl: "assets/img/position.png"
+            });
+        }).catch(function (error) {
+            //console.log('Error : ', error);
+            var alert = _this.alertCtrl.create({
+                title: 'Error',
+                subTitle: 'Error while getting your position, try again',
+                buttons: ['Close']
+            });
+            alert.present();
+        });
+    };
+    HomeMarketPage.prototype.addMarkerArticle = function (article) {
+        this.markers.push({
+            lat: article.latitude,
+            lng: article.longitude,
+            draggable: false,
+            visible: true,
+            article: article
+        });
+    };
+    HomeMarketPage.prototype.addPositionFiat = function (lat, lng, profil, uid) {
+        this.markers.push({
+            lat: lat,
+            lng: lng,
+            draggable: false,
+            position: { profil: profil, uid: uid }
+        });
+    };
+    HomeMarketPage.prototype.contact = function (profil, uid) {
+        var uidArray = [this.userService._userFirebase.uid, uid];
+        uidArray = uidArray.sort();
+        this.navCtrl.push('MessagesPage', { id: uidArray[0] + "-" + uidArray[1], profil: profil, otherUid: uid });
+    };
+    HomeMarketPage.prototype.getItems = function (ev) {
+        // set val to the value of the ev target
+        var val = ev.target.value;
+        this.valueSearch = val;
+        if (this.platform.is('cordova')) {
+            this.mapServiceProvider.findArticle(val);
+        }
+        else {
+            this.findArticle(val);
+        }
+    };
+    return HomeMarketPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])('map'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */])
+], HomeMarketPage.prototype, "mapElement", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])('searchbar'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Searchbar */])
+], HomeMarketPage.prototype, "searchbar", void 0);
+HomeMarketPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-homemarket',template:/*ion-inline-start:"D:\ivpay2\src\pages\home\homeMarket\homeMarket.html"*/'<ion-header>\n\n\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n\n\n    <ion-title>NeoPlace</ion-title>\n\n    <!--\n\n    <div style="text-align: center">\n\n      <img style="width: 10%" [src]="\'assets/img/logo/ic_neoplace.png\'">\n\n    </div>\n\n    -->\n\n\n\n    <ion-buttons end>\n\n      <button ion-button icon-only (click)="showPage(\'AddPage\')">\n\n        <ion-icon item-end name="add"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n\n\n  </ion-navbar>\n\n\n\n  <ion-toolbar no-border-top color="#91a8d0">\n\n    <ion-searchbar #searchbar showCancelButton [(ngModel)]="valueSearchBar" (ionInput)="getItems($event)"></ion-searchbar>\n\n\n\n    <ion-buttons end>\n\n      <button ion-button icon-only (click)="showPage(\'StorePage\')">\n\n        <ion-icon item-end name="list-box"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-toolbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <div *ngIf="!(lat && lng && zoom)" #map id="map" style="height:100%;">\n\n  </div>\n\n\n\n  <agm-map *ngIf="lat && lng && zoom" [latitude]="lat"\n\n           [longitude]="lng"\n\n           [zoom]="zoom">\n\n    <agm-marker *ngFor="let m of markers; let i = index"\n\n                [latitude]="m.lat"\n\n                [longitude]="m.lng"\n\n                [label]="m.label"\n\n                [iconUrl]="m.iconUrl"\n\n                [markerDraggable]="m.draggable"\n\n                [visible]="m.visible"\n\n                [markerClickable]="m.markerClickable">\n\n      <agm-info-window>\n\n            <div class="pin" style="width:150px" *ngIf="m.article">\n\n              <ion-card>\n\n                <img [src]="m.article.taked_picture" />\n\n              </ion-card>\n\n              <div class="post-description">\n\n                {{m.article.price}} {{m.article.currency}} <br><strong>{{m.article.title}}</strong> <br><a (click)="seeDetails(m.article)">See item</a>\n\n              </div>\n\n            </div>\n\n            <div class="pin" style="width:150px" *ngIf="m.service">\n\n              <ion-card>\n\n                <img [src]="m.service.taked_picture" />\n\n              </ion-card>\n\n              <div class="post-description">\n\n                {{m.service.price}} {{m.service.currency}} <br><strong>{{m.service.title}}</strong> <br><a (click)="seeDetailsService(m.service)">See service</a>\n\n              </div>\n\n            </div>\n\n            <div class="pin" style="width:175px" *ngIf="m.position">\n\n              <ion-avatar item-left>\n\n                <img src="{{m.position.profil.imageUrl}}">\n\n              </ion-avatar>\n\n              <h5>{{m.position.profil.pseudo}}</h5>\n\n              <div class="post-description">\n\n                Available for fiat exchange with <strong>{{m.position.profil.paymentMethod}}</strong>\n\n                <br>\n\n                <a (click)="contact(m.position.profil, m.position.uid)">Contact the SigChanger</a>\n\n              </div>\n\n            </div>\n\n      </agm-info-window>\n\n    </agm-marker>\n\n\n\n  </agm-map>\n\n\n\n\n\n  <!--\n\n    <ion-row *ngIf="!onFocusSearch">\n\n      <ion-col *ngFor="let item of pages; let i = index" text-center>\n\n        <button (click)="showList(item)" style="font-size: 15px;">\n\n          <ion-icon color="primary" name="{{ item.icon }}"></ion-icon> <br> {{ item.title }}\n\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n    -->\n\n\n\n</ion-content>\n\n\n\n\n\n'/*ion-inline-end:"D:\ivpay2\src\pages\home\homeMarket\homeMarket.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_7__providers_map_service__["a" /* MapServiceProvider */],
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* Renderer2 */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_4__providers_user_service__["a" /* UserService */],
+        __WEBPACK_IMPORTED_MODULE_5__providers_article_service__["a" /* ArticleService */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* Platform */],
+        __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* ViewController */]])
+], HomeMarketPage);
+
+//# sourceMappingURL=homeMarket.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=27.js.map
